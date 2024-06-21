@@ -1,0 +1,22 @@
+{
+  "name": "typescript-challenge",
+  "type": "module",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.cloud.capitalone.com/UK-Vulcan/Typescript-Challenge.git",
+  "author": "Daryl <daryl.cecile@capitalone.com>",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@1.22.21",
+  "dependencies": {
+    "@types/bun": "^1.0.5",
+    "@types/node": "^20.11.16",
+    "chalk": "^5.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "bun run ./utils/test.ts",
+    "postinstall": "curl -fsSL https://bun.sh/install | bash"
+  }
+}

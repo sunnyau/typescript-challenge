@@ -1,0 +1,6 @@
+{
+    "name": "challenge-5",
+    "scripts": {
+        "test": "cd ../ && yarn test -c 5"
+    }
+}
